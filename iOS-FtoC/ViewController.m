@@ -36,12 +36,12 @@
 - (IBAction)convertToC:(id)sender {
     float TF = [valF.text floatValue];
     float TC = (TF - 32.0)*5.0/9.0;
-    valC.text = [NSString stringWithFormat:@"%f",TC];
+    valC.text = [NSString stringWithFormat:@"%.1f",TC];
 }
 
 - (IBAction)convertToF:(id)sender {
     float TC = [valC.text floatValue];
     float TF = 9.0*TC/5.0 + 32.0;
-    valF.text = [NSString stringWithFormat:@"%f",TF];
+    valF.text = [NSString stringWithFormat:@"%.1f",TF];
 }
 @end
