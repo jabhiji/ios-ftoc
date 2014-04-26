@@ -24,6 +24,7 @@
 		1E85AD17190AA93600939748 /* RtoL-Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E85AD16190AA93600939748 /* RtoL-Button.png */; };
 		1E85AD19190AA94200939748 /* LtoR-Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E85AD18190AA94200939748 /* LtoR-Button.png */; };
 		1E85AD1B190B78A500939748 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E85AD1A190B78A500939748 /* icon@2x.png */; };
+		1E85AD23190B8F6F00939748 /* iOSbackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E85AD22190B8F6F00939748 /* iOSbackground.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		1E85AD16190AA93600939748 /* RtoL-Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RtoL-Button.png"; sourceTree = "<group>"; };
 		1E85AD18190AA94200939748 /* LtoR-Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LtoR-Button.png"; sourceTree = "<group>"; };
 		1E85AD1A190B78A500939748 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		1E85AD22190B8F6F00939748 /* iOSbackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iOSbackground.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 		1E85ACD5190AA34700939748 = {
 			isa = PBXGroup;
 			children = (
+				1E85AD22190B8F6F00939748 /* iOSbackground.png */,
 				1E85ACE7190AA34700939748 /* iOS-FtoC */,
 				1E85AD06190AA34700939748 /* iOS-FtoCTests */,
 				1E85ACE0190AA34700939748 /* Frameworks */,
@@ -242,6 +245,7 @@
 				1E85ACEC190AA34700939748 /* InfoPlist.strings in Resources */,
 				1E85ACF5190AA34700939748 /* Main.storyboard in Resources */,
 				1E85AD19190AA94200939748 /* LtoR-Button.png in Resources */,
+				1E85AD23190B8F6F00939748 /* iOSbackground.png in Resources */,
 				1E85AD1B190B78A500939748 /* icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -468,6 +472,7 @@
 				1E85AD12190AA34700939748 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1E85AD13190AA34700939748 /* Build configuration list for PBXNativeTarget "iOS-FtoCTests" */ = {
 			isa = XCConfigurationList;
@@ -476,6 +481,7 @@
 				1E85AD15190AA34700939748 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
