@@ -23,6 +23,7 @@
 		1E85AD0D190AA34700939748 /* iOS_FtoCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E85AD0C190AA34700939748 /* iOS_FtoCTests.m */; };
 		1E85AD17190AA93600939748 /* RtoL-Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E85AD16190AA93600939748 /* RtoL-Button.png */; };
 		1E85AD19190AA94200939748 /* LtoR-Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E85AD18190AA94200939748 /* LtoR-Button.png */; };
+		1E85AD1B190B78A500939748 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E85AD1A190B78A500939748 /* icon@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		1E85AD0C190AA34700939748 /* iOS_FtoCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_FtoCTests.m; sourceTree = "<group>"; };
 		1E85AD16190AA93600939748 /* RtoL-Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RtoL-Button.png"; sourceTree = "<group>"; };
 		1E85AD18190AA94200939748 /* LtoR-Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LtoR-Button.png"; sourceTree = "<group>"; };
+		1E85AD1A190B78A500939748 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +124,7 @@
 				1E85ACF6190AA34700939748 /* ViewController.h */,
 				1E85ACF7190AA34700939748 /* ViewController.m */,
 				1E85ACF9190AA34700939748 /* Images.xcassets */,
+				1E85AD1A190B78A500939748 /* icon@2x.png */,
 				1E85ACE8190AA34700939748 /* Supporting Files */,
 			);
 			path = "iOS-FtoC";
@@ -239,6 +242,7 @@
 				1E85ACEC190AA34700939748 /* InfoPlist.strings in Resources */,
 				1E85ACF5190AA34700939748 /* Main.storyboard in Resources */,
 				1E85AD19190AA94200939748 /* LtoR-Button.png in Resources */,
+				1E85AD1B190B78A500939748 /* icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
