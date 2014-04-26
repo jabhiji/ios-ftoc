@@ -51,16 +51,18 @@
 
 - (void) printMessage: (float) T
 {
-    if (T > 80) {
+    if (T > 100) {
+        message.text = [NSString stringWithFormat:@"Stay indoors!"];
+    } else if (T > 80 && T <= 100) {
         message.text = [NSString stringWithFormat:@"Getting hot out there"];
     } else if (T > 70 && T <= 80) {
         message.text = [NSString stringWithFormat:@"Nice weather for biking"];
     } else if (T > 50 && T <= 70) {
         message.text = [NSString stringWithFormat:@"Seems a little chilly"];
     } else if (T > 32 && T <= 50) {
-        message.text = [NSString stringWithFormat:@"definitely cold"];
+        message.text = [NSString stringWithFormat:@"Definitely cold"];
     } else {
-        message.text = [NSString stringWithFormat:@"freezing!"];
+        message.text = [NSString stringWithFormat:@"Freezing!"];
     }
 }
 
