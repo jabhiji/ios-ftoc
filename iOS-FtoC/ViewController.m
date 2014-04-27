@@ -28,6 +28,14 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    [valF setBackgroundColor:[UIColor colorWithRed:125.0f/255.0f
+                                             green:125.0f/255.0f
+                                              blue:250.0f/255.0f
+                                             alpha:1]];
+    [valC setBackgroundColor:[UIColor colorWithRed:125.0f/255.0f
+                                             green:125.0f/255.0f
+                                              blue:250.0f/255.0f
+                                             alpha:1]];
 }
 
 - (void)didReceiveMemoryWarning
