@@ -9,6 +9,7 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+
 @property (weak, nonatomic) IBOutlet UITextField *valF;
 @property (weak, nonatomic) IBOutlet UITextField *valC;
 @property (weak, nonatomic) IBOutlet UILabel *message;
@@ -40,6 +41,7 @@
     float TC = (TF - 32.0)*5.0/9.0;
     valC.text = [NSString stringWithFormat:@"%.1f",TC];
     [self printMessage:TF];
+    [valF resignFirstResponder]; // get rid of the keyboard
 }
 
 - (IBAction)convertToF:(id)sender {
@@ -47,6 +49,7 @@
     float TF = 9.0*TC/5.0 + 32.0;
     valF.text = [NSString stringWithFormat:@"%.1f",TF];
     [self printMessage:TF];
+    [valC resignFirstResponder]; // get rid of the keyboard
 }
 
 - (void) printMessage: (float) T
