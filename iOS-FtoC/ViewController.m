@@ -15,7 +15,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *message;
 - (IBAction)convertToC:(id)sender;
 - (IBAction)convertToF:(id)sender;
-
+@property (weak, nonatomic) IBOutlet UIImageView *imageToDisplay;
 @end
 
 @implementation ViewController
@@ -23,6 +23,7 @@
 @synthesize valF;
 @synthesize valC;
 @synthesize message;
+@synthesize imageToDisplay;
 
 - (void)viewDidLoad
 {
@@ -64,16 +65,22 @@
 {
     if (T > 100) {
         message.text = [NSString stringWithFormat:@"Stay indoors!"];
+        [imageToDisplay setImage:[UIImage imageNamed: @"desert.png"]];
     } else if (T > 80 && T <= 100) {
         message.text = [NSString stringWithFormat:@"Getting hot out there"];
+        [imageToDisplay setImage:[UIImage imageNamed: @"onTheBeach.png"]];
     } else if (T > 70 && T <= 80) {
         message.text = [NSString stringWithFormat:@"Nice weather for biking"];
+        [imageToDisplay setImage:[UIImage imageNamed: @"biking.png"]];
     } else if (T > 50 && T <= 70) {
         message.text = [NSString stringWithFormat:@"Seems a little chilly"];
+        [imageToDisplay setImage:[UIImage imageNamed: @"fallColors.png"]];
     } else if (T > 32 && T <= 50) {
         message.text = [NSString stringWithFormat:@"Definitely cold"];
+        [imageToDisplay setImage:[UIImage imageNamed: @"iceCream.png"]];
     } else {
         message.text = [NSString stringWithFormat:@"Freezing!"];
+        [imageToDisplay setImage:[UIImage imageNamed: @"penguin.png"]];
     }
 }
 

@@ -77,11 +77,16 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hLF-T9-zeZ">
+                                <rect key="frame" x="60" y="252" width="200" height="200"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.1056101567" green="1" blue="0.056322279570000001" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
                     </view>
                     <connections>
+                        <outlet property="imageToDisplay" destination="hLF-T9-zeZ" id="evG-fY-oGZ"/>
                         <outlet property="message" destination="ty0-mU-8tJ" id="bB6-5U-0c7"/>
                         <outlet property="valC" destination="9yA-hN-iAW" id="ycU-Cs-Pqj"/>
                         <outlet property="valF" destination="wP1-un-z1v" id="Zyz-ud-UWI"/>
