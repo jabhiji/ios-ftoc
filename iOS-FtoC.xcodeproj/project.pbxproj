@@ -27,9 +27,9 @@
 		1E85AD29190CED6200939748 /* penguin.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E85AD28190CED6200939748 /* penguin.png */; };
 		1E85AD2B190CF25200939748 /* desert.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E85AD2A190CF25200939748 /* desert.png */; };
 		1E85AD2D190CF51E00939748 /* fallColors.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E85AD2C190CF51E00939748 /* fallColors.png */; };
-		1E85AD2F190CF68000939748 /* biking.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E85AD2E190CF68000939748 /* biking.png */; };
 		1E85AD31190CF7C600939748 /* onTheBeach.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E85AD30190CF7C600939748 /* onTheBeach.png */; };
-		1E85AD33190CFA2F00939748 /* iceCream.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E85AD32190CFA2F00939748 /* iceCream.png */; };
+		1E85AD35190CFBED00939748 /* biking.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E85AD34190CFBED00939748 /* biking.png */; };
+		1E85AD37190CFFA900939748 /* himalayas.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E85AD36190CFFA900939748 /* himalayas.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,9 +68,9 @@
 		1E85AD28190CED6200939748 /* penguin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = penguin.png; sourceTree = "<group>"; };
 		1E85AD2A190CF25200939748 /* desert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = desert.png; sourceTree = "<group>"; };
 		1E85AD2C190CF51E00939748 /* fallColors.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fallColors.png; sourceTree = "<group>"; };
-		1E85AD2E190CF68000939748 /* biking.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = biking.png; sourceTree = "<group>"; };
 		1E85AD30190CF7C600939748 /* onTheBeach.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = onTheBeach.png; sourceTree = "<group>"; };
-		1E85AD32190CFA2F00939748 /* iceCream.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iceCream.png; sourceTree = "<group>"; };
+		1E85AD34190CFBED00939748 /* biking.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = biking.png; sourceTree = "<group>"; };
+		1E85AD36190CFFA900939748 /* himalayas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = himalayas.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,9 +145,9 @@
 		1E85ACE8190AA34700939748 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				1E85AD32190CFA2F00939748 /* iceCream.png */,
+				1E85AD36190CFFA900939748 /* himalayas.png */,
+				1E85AD34190CFBED00939748 /* biking.png */,
 				1E85AD30190CF7C600939748 /* onTheBeach.png */,
-				1E85AD2E190CF68000939748 /* biking.png */,
 				1E85AD2C190CF51E00939748 /* fallColors.png */,
 				1E85AD2A190CF25200939748 /* desert.png */,
 				1E85AD28190CED6200939748 /* penguin.png */,
@@ -259,12 +259,12 @@
 				1E85AD29190CED6200939748 /* penguin.png in Resources */,
 				1E85AD17190AA93600939748 /* RtoL-Button.png in Resources */,
 				1E85ACFA190AA34700939748 /* Images.xcassets in Resources */,
-				1E85AD33190CFA2F00939748 /* iceCream.png in Resources */,
-				1E85AD2F190CF68000939748 /* biking.png in Resources */,
 				1E85ACEC190AA34700939748 /* InfoPlist.strings in Resources */,
 				1E85AD2B190CF25200939748 /* desert.png in Resources */,
 				1E85ACF5190AA34700939748 /* Main.storyboard in Resources */,
 				1E85AD19190AA94200939748 /* LtoR-Button.png in Resources */,
+				1E85AD35190CFBED00939748 /* biking.png in Resources */,
+				1E85AD37190CFFA900939748 /* himalayas.png in Resources */,
 				1E85AD23190B8F6F00939748 /* iOSbackground.png in Resources */,
 				1E85AD2D190CF51E00939748 /* fallColors.png in Resources */,
 			);

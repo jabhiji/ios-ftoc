@@ -63,10 +63,10 @@
 
 - (void) printMessage: (float) T
 {
-    if (T > 100) {
+    if (T > 110) {
         message.text = [NSString stringWithFormat:@"Stay indoors!"];
         [imageToDisplay setImage:[UIImage imageNamed: @"desert.png"]];
-    } else if (T > 80 && T <= 100) {
+    } else if (T > 80 && T <= 110) {
         message.text = [NSString stringWithFormat:@"Getting hot out there"];
         [imageToDisplay setImage:[UIImage imageNamed: @"onTheBeach.png"]];
     } else if (T > 70 && T <= 80) {
@@ -77,7 +77,7 @@
         [imageToDisplay setImage:[UIImage imageNamed: @"fallColors.png"]];
     } else if (T > 32 && T <= 50) {
         message.text = [NSString stringWithFormat:@"Definitely cold"];
-        [imageToDisplay setImage:[UIImage imageNamed: @"iceCream.png"]];
+        [imageToDisplay setImage:[UIImage imageNamed: @"himalayas.png"]];
     } else {
         message.text = [NSString stringWithFormat:@"Freezing!"];
         [imageToDisplay setImage:[UIImage imageNamed: @"penguin.png"]];
