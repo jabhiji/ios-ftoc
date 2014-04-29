@@ -77,10 +77,10 @@
         [imageToDisplay setImage:[UIImage imageNamed: @"fallColors.png"]];
     } else if (T > 32 && T <= 50) {
         message.text = [NSString stringWithFormat:@"Definitely cold"];
-        [imageToDisplay setImage:[UIImage imageNamed: @"himalayas.png"]];
+        [imageToDisplay setImage:[UIImage imageNamed: @"snowOnStreet.png"]];
     } else {
         message.text = [NSString stringWithFormat:@"Freezing!"];
-        [imageToDisplay setImage:[UIImage imageNamed: @"penguin.png"]];
+        [imageToDisplay setImage:[UIImage imageNamed: @"penguins.png"]];
     }
 }
 
