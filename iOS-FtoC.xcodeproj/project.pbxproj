@@ -226,6 +226,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = XYZ;
 				TargetAttributes = {
+					1E85ACDD190AA34700939748 = {
+						DevelopmentTeam = QUA62RNLTJ;
+					};
 					1E85ACFE190AA34700939748 = {
 						TestTargetID = 1E85ACDD190AA34700939748;
 					};
@@ -412,10 +415,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iOS-FtoC/iOS-FtoC-Prefix.pch";
 				INFOPLIST_FILE = "iOS-FtoC/iOS-FtoC-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "DC907360-9160-41CB-AF79-A0715509D2D4";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -425,10 +431,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iOS-FtoC/iOS-FtoC-Prefix.pch";
 				INFOPLIST_FILE = "iOS-FtoC/iOS-FtoC-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "DC907360-9160-41CB-AF79-A0715509D2D4";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
